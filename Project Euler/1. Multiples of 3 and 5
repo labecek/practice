@@ -1,5 +1,0 @@
-https://projecteuler.net/problem=1
-
-//JavaScript
-
-[...Array(1000)].reduce((pre, _, idx) => pre + (!(idx % 3) || !(idx % 5)) * idx, 0);
