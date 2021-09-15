@@ -1,5 +1,0 @@
-https://www.hackerrank.com/challenges/positive-lookahead/problem
-
-//JavaScript
-
-const Regex_Pattern = /o(?=oo)/g;

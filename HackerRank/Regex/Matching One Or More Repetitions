@@ -1,5 +1,0 @@
-https://www.hackerrank.com/challenges/matching-one-or-more-repititions/problem
-
-//JavaScript
-
-const Regex_Pattern = /^\d+[A-Z]+[a-z]+$/;

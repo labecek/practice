@@ -1,6 +1,0 @@
-https://www.hackerrank.com/challenges/js10-regexp-1/problem
-
-//JavaScript
-
-const regexVar =() => 
-  /^([aeiou]).*\1$/;

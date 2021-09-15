@@ -1,5 +1,0 @@
-https://www.hackerrank.com/challenges/matching-ending-items/problem
-
-//JavaScript
-
-const Regex_Pattern = /^[A-Za-z]*s$/;

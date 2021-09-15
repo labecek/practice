@@ -1,5 +1,0 @@
-https://www.hackerrank.com/challenges/negative-lookahead/problem
-
-//JavaScript
-
-const Regex_Pattern = /(.)(?!\1)/g;

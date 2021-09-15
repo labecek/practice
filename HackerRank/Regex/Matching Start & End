@@ -1,5 +1,0 @@
-https://www.hackerrank.com/challenges/matching-start-end/problem
-
-//JavaScript
-
-const Regex_Pattern = /^\d\w{4}\.$/;

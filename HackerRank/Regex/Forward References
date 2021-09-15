@@ -1,5 +1,0 @@
-https://www.hackerrank.com/challenges/forward-references/problem
-
-//PHP
-
-$Regex_Pattern = '/^tac(tac(tic)?)*$/';
