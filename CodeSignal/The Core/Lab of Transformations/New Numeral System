@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/ngQTG9kra7GE9pnnK
-
-//JavaScript
-
-const newNumeralSystem = number =>
-  [...Array((number.charCodeAt() - 65) / 2 + 1 ^ 0).keys()].map(val => `${String.fromCharCode(val + 65)} + ${String.fromCharCode(number.charCodeAt() - val)}`);

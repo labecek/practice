@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/well-of-integration/RaWLwT2eb96hp4N5Z
-
-//JavaScript
-
-const houseOfCats = legs =>
-  [...Array(legs / 2 + 1).keys()].filter(val => !((legs - 2 * val) % 4));

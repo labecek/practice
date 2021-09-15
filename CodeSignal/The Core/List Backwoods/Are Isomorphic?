@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/list-backwoods/xKYm98etd9JRsTcZY
-
-//JavaScript
-
-const areIsomorphic = (array1, array2) =>
-  `${array1.map(val => val.length)}` === `${array2.map(val => val.length)}`;

@@ -1,7 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-11/pwRLrkrNpnsbgMndb
-
-//JavaScript
-
-const chessKnight = cell =>
-  [[-2, -1], [-2, 1], [-1, -2], [-1, 2], [1, -2], [1, 2], [2, -1], [2, 1]].
-  filter(val => /[a-h]/.test(String.fromCharCode(cell.charCodeAt() + val[0])) && /^[1-8]$/.test(+cell[1] + val[1])).length;

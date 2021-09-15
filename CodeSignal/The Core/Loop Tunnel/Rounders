@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/loop-tunnel/H5PP5MXvYvWXxTytH
-
-//JavaScript
-
-const rounders = (value, n = 0) =>
-  value < 10 ? value * 10 ** n : rounders(Math.round(value / 10), ++n);

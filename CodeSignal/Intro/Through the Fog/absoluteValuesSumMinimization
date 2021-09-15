@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-7/ZFnQkq9RmMiyE6qtq
-
-//JavaScript
-
-const absoluteValuesSumMinimization = a =>
-  a[(a.length - 1) >> 1];

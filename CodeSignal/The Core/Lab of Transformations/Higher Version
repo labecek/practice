@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/vsKRjYKv4SCjzJc8r
-
-//JavaScript
-
-const higherVersion = (ver1, ver2) =>
-  ver1.split(`.`).reduce((pre, val, idx) => pre || val - ver2.split(`.`)[idx], 0) > 0;

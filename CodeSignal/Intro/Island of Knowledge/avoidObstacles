@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-5/XC9Q2DhRRKQrfLhb5
-
-//JavaScript
-
-const avoidObstacles = (inputArray, i = 2) =>
-  inputArray.every(val => val % i) ? i : avoidObstacles(inputArray, ++i);

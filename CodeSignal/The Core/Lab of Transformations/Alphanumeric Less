@@ -1,7 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/lab-of-transformations/bBgu7NEfk2GoQuNzf
-
-//JavaScript
-
-const alphanumericLess = (s1, s2) =>
-  (fn => fn(s1) < fn(s2) ? true : fn(s1) > fn(s2) ? false : s1.padEnd(20, `Z`) < s2.padEnd(20, `Z`))
-  (str => str.replace(/\d+/g, val => val.padStart(20, 0)));

@@ -1,7 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/corner-of-0s-and-1s/dShYZZT4WmvpmfpgB
-
-//JavaScript
-
-function swapAdjacentBits(n) {
-  return parseInt(n.toString(2).padStart(32, `0`).replace(/(.)(.)/g, `$2$1`), 2);
-}

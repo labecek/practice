@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/well-of-integration/fzsCQGYbxaEcTr2bL
-
-//JavaScript
-
-const allLongestStrings = inputArray =>
-  inputArray.filter(val => val.length === Math.max(...inputArray.map(val => val.length)));

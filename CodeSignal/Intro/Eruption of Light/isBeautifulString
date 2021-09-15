@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-10/PHSQhLEw3K2CmhhXE
-
-//JavaScript
-
-const isBeautifulString = inputString =>
-  [...`abcdefghijklmnopqrstuvwxyz`].map(val => inputString.split(val).length).every((val, idx, arr) => !idx || val <= arr[--idx]);

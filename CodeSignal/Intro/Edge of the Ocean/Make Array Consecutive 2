@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-2/bq2XnSr5kbHqpHGJC
-
-//JavaScript
-
-const makeArrayConsecutive2 = statues =>
-  Math.max(...statues) - Math.min(...statues) + 1 - statues.length;

@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/list-forest-edge/ND8nghbndTNKPP4Tb
-
-//JavaScript
-
-const firstReverseTry = arr =>
-  arr.length > 1 ? [arr.pop(), ...arr.slice(1), arr.shift()] : arr;

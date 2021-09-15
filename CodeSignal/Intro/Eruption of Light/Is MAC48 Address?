@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-10/HJ2thsvjL25iCvvdm
-
-//JavaScript
-
-const isMAC48Address = inputString =>
-  /^([0-9A-F]{2}-){5}[0-9A-F]{2}$/.test(inputString);

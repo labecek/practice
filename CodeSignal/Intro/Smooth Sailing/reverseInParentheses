@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-3/9DgaPsE2a7M6M2Hu6
-
-//JavaScript
-
-const reverseInParentheses = inputString =>
-  inputString.includes(`(`) ? reverseInParentheses(inputString.replace(/\(([^()]*)\)/, (_, $1) => [...$1].reverse().join(``))) : inputString;

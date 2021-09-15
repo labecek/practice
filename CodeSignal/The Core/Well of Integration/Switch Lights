@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/well-of-integration/x3ix7CY93z2bwKDtG
-
-//JavaScript
-
-const switchLights = a =>
-  a.map((_, idx, arr) => arr.slice(++idx).reduce((pre, val) => val ^ pre, 0));

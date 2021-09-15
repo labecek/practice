@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/list-forest-edge/bq2XnSr5kbHqpHGJC
-
-//JavaScript
-
-const makeArrayConsecutive2 = statues => 
-  Math.max(...statues) - Math.min(...statues) - --statues.length;

@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/well-of-integration/Z9opBsx5fX6XfQJdt
-
-//JavaScript
-
-const alphabetSubsequence = s =>
-  s === [...new Set(s)].sort().join(``);

@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/intro-gates/HEsmEacHr2s9wahjr
-
-//JavaScript
-
-const maxMultiple = (divisor,bound) => 
-  bound - bound % divisor;

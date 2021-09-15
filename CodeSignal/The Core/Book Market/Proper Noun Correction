@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/book-market/2nSEQ8CGoddTJtnbo
-
-//JavaScript
-
-const properNounCorrection = noun =>
-  noun.toLowerCase().replace(/./, noun[0].toUpperCase());

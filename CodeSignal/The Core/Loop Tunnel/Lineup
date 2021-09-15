@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/loop-tunnel/8rqs3BLpdKePhouQM
-
-//JavaScript
-
-const lineUp = (commands, flag = true) =>
-  [...commands].reduce((pre, val) => pre + (flag = val !== `A` ? !flag : flag), 0);

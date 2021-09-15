@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-3/3AdBC97QNuhF6RwsQ
-
-//JavaScript
-
-const isLucky = n =>
-  ![...`${n}`].reduce((pre, val, _, arr) => pre + +val - arr.pop(), 0);

@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-12/sCpwzJCyBy2tDSxKW
-
-//JavaScript
-
-const messageFromBinaryCode = code =>
-  code.replace(/[01]{8}/g, val => String.fromCharCode(parseInt(val, 2)));

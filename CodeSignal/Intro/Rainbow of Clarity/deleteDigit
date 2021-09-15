@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-11/vpfeqDwGZSzYNm2uX
-
-//JavaScript
-
-const deleteDigit = n =>
-  Math.max(...[...`${n}`].map((_, idx) => `${n}`.slice(0, idx) + `${n}`.slice(++idx)));

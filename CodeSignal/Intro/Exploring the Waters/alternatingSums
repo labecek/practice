@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-4/cC5QuL9fqvZjXJsW9
-
-//JavaScript
-
-const alternatingSums = a =>
-  a.reduce((pre, val, idx) => (pre[idx % 2] += val, pre), [0,0]);

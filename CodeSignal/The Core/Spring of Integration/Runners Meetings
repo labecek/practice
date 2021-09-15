@@ -1,7 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/spring-of-integration/Hb9Cppx4pCY4d8J5P
-
-//JavaScript
-
-const runnersMeetings = (startPosition, speed) =>
-  Math.max(-1, ...startPosition.map((val, idx) => startPosition.map((v, i) => (val - v) / (speed[idx] - speed[i]))).
-    map(val => Math.max(...Object.values(val.reduce((pre, val) => (Number.isFinite(val) && val < 0 && (pre[val] = -~pre[val]), pre), {}))) + 1));

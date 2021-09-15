@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/book-market/2SDWWyHY9Xw5CpphY
-
-//JavaScript
-
-const isTandemRepeat = inputString =>
-  /^(\w+)\1$/.test(inputString);

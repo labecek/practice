@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-6/PWLT8GBrv9xXy4Dui
-
-//JavaScript
-
-const alphabeticShift = inputString =>
-  inputString.replace(/[a-z]/g, val => String.fromCharCode(val < `z` ? val.charCodeAt() + 1 : 97));

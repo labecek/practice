@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-3/JKKuHJknZNj4YGL32
-
-//JavaScript
-
-const commonCharacterCount = (s1, s2) =>
-  ([...s1].forEach(val => s2 = s2.replace(val, ` `)), s2.replace(/\S/g, ``).length);

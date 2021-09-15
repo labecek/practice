@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/book-market/HJ2thsvjL25iCvvdm
-
-//JavaScript
-
-const isMAC48Address = inputString =>
-  /^([\dA-F]{2}-){6}$/.test(inputString + `-`);

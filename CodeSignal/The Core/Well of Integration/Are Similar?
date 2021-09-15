@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/well-of-integration/xYXfzQmnhBvEKJwXP
-
-//JavaScript
-
-const areSimilar = (a, b) =>
-  a.filter((val, idx) => val !== b[idx]).length < 3 && `${a.sort()}` === `${b.sort()}`;

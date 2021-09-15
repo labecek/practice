@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-2/2mxbGwLzvkTCKAJMG
-
-//JavaScript
-
-const almostIncreasingSequence = sequence =>
-  [...Array(sequence.length)].reduce((pre, _, idx) => pre + (sequence[idx] <= sequence[idx - 1]) + (sequence[idx] <= sequence[idx - 2] && sequence[idx + 1] <= sequence[idx - 1]), 0) < 2;

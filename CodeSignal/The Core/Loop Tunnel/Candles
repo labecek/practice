@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/loop-tunnel/LAKReA3CR9EwkZGSz
-
-//JavaScript
-
-const candles = (candlesNumber, makeNew) =>
-  candlesNumber + --candlesNumber / --makeNew ^ 0;

@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb
-
-//JavaScript
-
-const depositProfit = (deposit, rate, threshold) =>
-  Math.ceil(Math.log(threshold / deposit) / Math.log(1 + rate / 100));

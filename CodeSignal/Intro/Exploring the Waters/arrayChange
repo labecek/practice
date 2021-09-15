@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-4/xvkRbxYkdHdHNCKjg
-
-//JavaScript
-
-const arrayChange = arr =>
-  arr.reduce((pre, val, idx) => (idx && val <= arr [idx - 1] && (arr[idx] += arr[idx - 1] - val + 1), pre + arr[idx] - val), 0);

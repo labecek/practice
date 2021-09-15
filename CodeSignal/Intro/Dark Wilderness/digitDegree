@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-9/hoLtYWbjdrD2PF6yo
-
-//JavaScript
-
-const digitDegree = n =>
-  n < 10 ? 0 : 1 + digitDegree([...`${n}`].reduce((pre, val) => pre + +val, 0));

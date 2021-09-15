@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/J7PQDxpWqhx7HrvBZ
-
-//JavaScript
-
-const metroCard = (lastNumberOfDays) => 
-  lastNumberOfDays < 31 ? [31] : [28, 30, 31];

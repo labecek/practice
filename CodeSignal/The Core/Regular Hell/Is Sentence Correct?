@@ -1,8 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/regular-hell/mj4qdJqZknbkHNzhK
-
-//JavaScript
-
-function isSentenceCorrect(sentence) {
-  var re = /^[A-Z][^.?!]*[.?!]$/;
-  return re.test(sentence);
-}

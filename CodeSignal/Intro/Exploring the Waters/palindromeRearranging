@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-4/Xfeo7r9SBSpo3Wico
-
-//JavaScript
-
-const palindromeRearranging = inputString =>
-  [...inputString].sort().join(``).replace(/(.)\1/g, ``).length < 2;

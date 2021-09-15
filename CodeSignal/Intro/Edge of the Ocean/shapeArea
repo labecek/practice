@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/intro/level-2/yuGuHvcCaFCKk56rJ
-
-//JavaScript
-
-const shapeArea = n => 
-  n ** 2 + --n ** 2;

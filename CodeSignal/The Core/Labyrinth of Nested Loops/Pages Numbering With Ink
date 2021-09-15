@@ -1,6 +1,0 @@
-https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/pdw3izd7SpMTBJqSy
-
-//JavaScript
-
-const pagesNumberingWithInk = (current, numberOfDigits) =>
-  numberOfDigits < `${current}`.length ? current - 1 : pagesNumberingWithInk(current + 1, numberOfDigits - `${current}`.length);
