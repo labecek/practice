@@ -1,6 +1,0 @@
-https://js.checkio.org/en/mission/common-words/
-
-//JavaScript
-
-const commonWords = (first, second) =>
-  first.split(`,`).filter(val => second.split(`,`).includes(val)).sort().join();

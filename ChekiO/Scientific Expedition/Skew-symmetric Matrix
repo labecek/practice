@@ -1,6 +1,0 @@
-https://js.checkio.org/en/mission/skew-symmetric-matrix/
-
-//JavaScript
-
-const symmetric = matrix =>
-  !matrix.some((val, idx) => val.some((v, i) => v !== -matrix[i][idx]));

@@ -1,7 +1,0 @@
-https://js.checkio.org/en/mission/most-numbers/
-
-//JavaScript
-
-function mostNumbers(numbers) {
-  return numbers ? Math.max(...arguments) - Math.min(...arguments) : 0;
-}

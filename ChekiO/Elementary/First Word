@@ -1,5 +1,0 @@
-https://js.checkio.org/en/mission/first-word/
-
-//JavaScript
-
-const firstWord = data => data.match(/[\w']+/)[0];

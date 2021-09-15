@@ -1,6 +1,0 @@
-https://js.checkio.org/en/mission/digits-multiplication/
-
-//JavaScript
-
-const digitsMultip = data =>
-  [...String(data)].reduce((pre, val) => pre * (+val || 1), 1);
