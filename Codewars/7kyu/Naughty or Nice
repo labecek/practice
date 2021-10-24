@@ -1,6 +1,7 @@
-https://www.codewars.com/kata/585eaef9851516fcae00004d
+https://www.codewars.com/kata/5662b14e0a1fb8320a00005c
 
 //JavaScript
 
-const whatListAmIOn = actions =>
-  actions.reduce((pre, val) => pre + /^[gsn]/.test(val) - /^[bfk]/.test(val), 0) > 0 ? `nice` : `naughty`;
+const naughtyOrNice = data =>
+  (str => str.match(/Nice/g).length < str.match(/Naughty/g).length ? `Naughty!` : `Nice!`)
+  (JSON.stringify(data));
